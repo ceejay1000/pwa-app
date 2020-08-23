@@ -9,6 +9,6 @@ try {
     .then((reg) => console.log("service worker registered with, ", reg))
     .catch(err => console.log("sw not registered ", err))
   }
-} catch {
-  console.log("err")
+} catch { 
+  console.log("err");
 }
